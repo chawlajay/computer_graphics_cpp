@@ -6,10 +6,10 @@ From installing IDE, graphics library, different function with code and syntax ,
 ## 2. We need to download header files for graphics to work in our machine. Download 3 files from [here](https://github.com/chawlajay/computer_graphics_cpp/tree/main/graphics_library).
 
 ## 3. Add graphics.h and winbgim.h
-      Copy and Paste graphics.h and winbgim.h in the "include" folder inside MINGW folder of CodeBlocks folder in your machine. Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\include
+Copy and Paste graphics.h and winbgim.h in the "include" folder inside MINGW folder of CodeBlocks folder in your machine. Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\include
 
 ## 4. Copy and Paste libbgi.a file in "lib" folder inside MINGW folder of CodeBlocks folder in your machine.
-      Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\lib 
+Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\lib 
 
 ## 5. After adding these libraries, do these setting in CodeBlocks IDE.
 * In the Code::Blocks IDE, open Settings-> Compiler in menu bar.
@@ -20,7 +20,7 @@ From installing IDE, graphics library, different function with code and syntax ,
 * Click on OK button to apply these changes and then close the application and then Restart your PC/Laptop.
 
 ## 6. Open Code::Blocks IDE after restarting is done and copy/paste this [sample code](https://github.com/chawlajay/computer_graphics_cpp/blob/main/sample_code.cpp) to test the working.
-      Save file in C++ language with extension .cpp OR you can make project as console application in C++ and file is saved by default as main.cpp in codeblocks.
+Save file in C++ language with extension .cpp OR you can make project as console application in C++ and file is saved by default as main.cpp in codeblocks.
 
 
 
