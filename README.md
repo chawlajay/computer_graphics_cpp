@@ -16,7 +16,8 @@ Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\lib
 * In the Popup Box appeared, click on Linker settings next to compiler settings.
 * Add the Path of libbgi.a in "Link libraries" by clicking on Add button and then Browse Icon. Address of the file might be like this C:\Program Files (x86)\CodeBlocks\MinGW\lib\libbgi.a
 * Then add (copy/paste) this below code in Other linker options, on right side of where you just added the path of libbgi.a file.
-   -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+                                    
+                                    -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 * Click on OK button to apply these changes and then close the application and then Restart your PC/Laptop.
 
 ## 6. Open Code::Blocks IDE after restarting is done and copy/paste this [sample code](https://github.com/chawlajay/computer_graphics_cpp/blob/main/sample_code.cpp) to test the working.
