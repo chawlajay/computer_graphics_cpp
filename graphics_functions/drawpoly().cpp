@@ -19,11 +19,6 @@ int main()
     drawpoly(4, arr);
 
    getch();
-    // closegraph function closes the
-    // graphics mode and deallocates
-    // all memory allocated by
-    // graphics system .
-
    closegraph();
    return 0;
 }
