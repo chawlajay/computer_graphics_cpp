@@ -22,6 +22,7 @@ Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\lib
 
 ## 6. Open Code::Blocks IDE after restarting is done and copy/paste this [sample code](https://github.com/chawlajay/computer_graphics_cpp/blob/main/sample_code.cpp) to test the working.
 Save file in C++ language with extension .cpp OR you can make project as console application in C++ and file is saved by default as main.cpp in codeblocks.
+	`Output will be generated in the window of size 640x480`
 
 
 
