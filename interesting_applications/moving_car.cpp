@@ -18,6 +18,25 @@ void draw_moving_car(){
         line(0 + i, 300, 0 + i, 330);           // left vertical line
         line(210 + i, 300, 210 + i, 330);       // right vertical line
 
+        // For left wheel of car
+        circle(65 + i, 330, 15);
+        circle(65 + i, 330, 2);
+
+        // For right wheel of car
+        circle(145 + i, 330, 15);
+        circle(145 + i, 330, 2);
+
+        // Line left of left wheel
+        line(0 + i, 330, 50 + i, 330);
+
+        // Line middle of both wheel
+        line(80 + i, 330, 130 + i, 330);
+
+        // Line right of right wheel
+        line(210 + i, 330, 160 + i, 330);
+
+        delay(100);
+
     }
 
     getch();
