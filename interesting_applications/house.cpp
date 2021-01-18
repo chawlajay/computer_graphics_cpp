@@ -35,8 +35,14 @@ void house(){
     drawpoly(4,dome2);
     floodfill(400,190,WHITE);
 
+    setfillstyle(8,MAGENTA);
     rectangle(220,300,280,400);     // door rectangle
+    floodfill(250,350,WHITE);
+
+    setfillstyle(10,WHITE);
     arc(250,300,0,180,30);          // arc on door
+    floodfill(250,290,WHITE);
+
     getch();
     closegraph();
 
