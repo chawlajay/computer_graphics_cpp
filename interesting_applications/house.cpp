@@ -15,8 +15,18 @@ void house(){
     rectangle(100,220,400,220);     // front wall small rectangle
     floodfill(150,210,WHITE);
 
-    line(400,200,550,150);          //side wall upper line
-    line(400,220,550,170);          //side wall middle line
+    setfillstyle(5,GREEN);
+    int side_wall_arr[]={400,200,550,150,550,170,400,220,400,200};
+    drawpoly(5,side_wall_arr);
+    floodfill(450,190,WHITE);
+
+    setfillstyle(7,CYAN);
+    int arr[]={400,220,550,170,550,350,400,400,400,220};
+    drawpoly(5,arr);
+    floodfill(450,350,WHITE);
+
+
+
     line(400,400,550,350);          //side wall lower line
     line(550,150,550,350);          //side wall vertical line
 
