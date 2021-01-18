@@ -11,11 +11,10 @@ void house(){
     rectangle(100,200,400,400);     // front wall big rectangle
     floodfill(150,250,WHITE);
 
-    setfillstyle(3,GREEN);
+    setfillstyle(5,GREEN);
     rectangle(100,220,400,220);     // front wall small rectangle
     floodfill(150,210,WHITE);
 
-    setfillstyle(5,GREEN);
     int side_wall_arr[]={400,200,550,150,550,170,400,220,400,200};
     drawpoly(5,side_wall_arr);
     floodfill(450,190,WHITE);
@@ -26,13 +25,15 @@ void house(){
     floodfill(450,350,WHITE);
 
 
+    setfillstyle(1,YELLOW);
+    int dome1[]={300,50,100,200,400,200,300,50};
+    drawpoly(4,dome1);
+    floodfill(250,150,WHITE);
 
-    line(400,400,550,350);          //side wall lower line
-    line(550,150,550,350);          //side wall vertical line
-
-    line(300,50,100,200);           //dome left slant line
-    line(300,50,400,200);           //dome middle slant line
-    line(300,50,550,150);           //dome right slant line
+    setfillstyle(1,RED);
+    int dome2[]={300,50,400,200,550,150,300,50};
+    drawpoly(4,dome2);
+    floodfill(400,190,WHITE);
 
     rectangle(220,300,280,400);     // door rectangle
     arc(250,300,0,180,30);          // arc on door
