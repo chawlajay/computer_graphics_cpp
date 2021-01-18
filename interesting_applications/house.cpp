@@ -15,6 +15,10 @@ void house(){
     line(400,400,550,350);          //side wall lower line
     line(550,150,550,350);          //side wall vertical line
 	
+    line(300,50,100,200);           //dome left slant line
+    line(300,50,400,200);           //dome middle slant line
+    line(300,50,550,150);           //dome right slant line
+
     getch();
     closegraph();
 
