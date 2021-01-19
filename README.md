@@ -1,5 +1,5 @@
 # Computer Graphics using cpp
-From installing IDE, graphics library, different function with code and syntax , I am uploading in here.
+From installing IDE, graphics library, different functions with code and syntax , I am uploading in here.
 
 ## 1. Install Code::Blocks IDE from this [link](https://sourceforge.net/projects/codeblocks/files/latest/download), which is easy to work with C/C++.
 Computer Graphics(CG) is old library but basics of CG becomes clear using graphics.h library and its functions. (If above CodeBlocks version don't works for you or shows errors, try this [17.12 version](https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
@@ -25,5 +25,6 @@ Generally the path is C:\Program Files (x86)\CodeBlocks\MinGW\lib
 Save file in C++ language with extension .cpp OR you can make project as console application in C++ and file is saved by default as main.cpp in codeblocks.
 	`Output will be generated in the window of size 640x480`
 
-
+### If you have some error in codeblocks 20 version, then follow this [video](https://www.youtube.com/watch?v=VEkAj-xVTKQ&feature=youtu.be). Maybe it will solve your issue.
+Suggested by [Meet](https://github.com/meet-soni5720)
 
