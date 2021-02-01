@@ -32,6 +32,6 @@ Suggested by [Meet](https://github.com/meet-soni5720)
 ## STEPS TO INSTALL AND SETUP glut.h (OpenGL library) in CODE::BLOCKS IDE.
 
 ## 1. Install CodeBlocks from link given above if you haven't yet.
-## 2. Download [these]() files in your PC/Laptop.
+## 2. Download [these](https://github.com/chawlajay/computer_graphics_cpp/tree/main/openGL_library_files) files in your PC/Laptop.
 ## 3. Follow steps given in this [link](http://www.sci.brooklyn.cuny.edu/~goetz/codeblocks/glut/).
 
