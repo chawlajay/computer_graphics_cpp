@@ -9,4 +9,38 @@
 	of this situation include the failure to connect to the window system, the lack of window system support for OpenGL, and 
 	invalid command line options.
 
-2. 
+2. glutInitDisplayMode( unsigned int mode ) - sets the basic display modes.  For more than one choice, OR the constants together.  
+Usual mode constants are:
+
+            GLUT_SINGLE - single buffering
+
+            GLUT_DOUBLE - double buffering
+
+            GLUT_RGB - set to full color mode
+
+            GLUT_RGBA - same as RGB
+
+            GLUT_INDEX - set color index mode
+
+            GLUT_DEPTH - set up a depth buffer
+
+3. a window is created with GLUT that will contain the viewport which displays the OpenGL front buffer with the following three lines:
+	glutInitWindowSize( int width, int height ) - sets size of screen window in pixels
+
+	glutInitWindowPosition( int x, int y ) - sets initial window position on the screen for upper left corner
+
+	glutCreateWindow( char* title ) creates a top-level window labeled with title.
+
+4. glutDisplayFunc( void (*func)(void) ) - sets the callback function, provided by your program, that GLUT will call when a window must 
+be redisplayed (e.g. on resize).  Simply pass the name of a void function that takes no parameters.
+
+5. glutMainLoop( ) - start the event loop; never returns.
+
+
+
+
+
+
+
+
+
