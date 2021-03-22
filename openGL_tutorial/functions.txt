@@ -36,7 +36,40 @@ be redisplayed (e.g. on resize).  Simply pass the name of a void function that t
 
 5. glutMainLoop( ) - start the event loop; never returns.
 
+6. glClearColor( float red, float green, float blue, float alpha ) - set the clear color to (red, green, blue) with value alpha.
 
+7. glColor3f( float red, float green, float blue ) - set the current drawing color to (red, green, blue).
+
+8. glPointSize( float size ) - sets pixel width for a point; default is 1.0
+
+9. glMatrixMode(GLenum mode) - sets the matrix to be worked on.  Values for mode are:
+
+            GL_MODELVIEW - use the modelview matrix
+
+            GL_PROJECTION - use the projection matrix
+
+            GL_TEXTURE - use the texture matrix
+
+10. glLoadIdentity( void ) - set the current matrix to the identity
+
+11. gluOrtho2D(double left, double right, double bottom, double top) - sets the 2-dimensional clipping rectangle as (left, bottom) and (right, top).
+
+12. glClear( GLbitfield mask ) - clear the buffer indicated by mask using the current clear color.  Values for mask are:
+
+            GL_COLOR_BUFFER_BIT - color buffer
+
+            GL_DEPTH_BUFFER_BIT - depth buffer
+
+            GL_ACCUM_BUFFER_BIT - accumulation buffer
+
+            GL_STENCIL_BUFFER_BIT - stencil buffer
+
+13. glEnable( GL_AUTO_NORMAL ) to auto-generate true surface normals
+      glEnable( constant ) - enables one of many modes; here, possibilities are GL_LINE_STIPPLE and GL_POLYGON_STIPPLE.
+      glEnable( GL_LIGHTING ) - to enable the lighting system
+      glEnable( GL_LIGHT0 ) - or GL_LIGHT1, etc., to enable specific lights
+
+ 
 
 
 
