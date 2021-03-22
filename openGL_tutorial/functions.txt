@@ -69,8 +69,36 @@ be redisplayed (e.g. on resize).  Simply pass the name of a void function that t
       glEnable( GL_LIGHTING ) - to enable the lighting system
       glEnable( GL_LIGHT0 ) - or GL_LIGHT1, etc., to enable specific lights
 
- 
+14. glBegin(GLenum mode) - start a vertex list.  Parameter mode can be:
 
+            GL_POINTS - single points
+
+            GL_LINES - pairs of vertices are a line segment
+
+            GL_LINE_STRIP - polyline
+
+            GL_LINE_LOOP - closed polyline
+
+            GL_TRIANGLES - triples indicate a triangle
+
+            GL_TRIANGLE_STRIP- linked strip of triangles
+
+            GL_TRIANGLE_FAN - linked fan of triangles
+
+            GL_QUADS - quadruples indicate a quadrilateral
+
+            GL_QUAD_STRIP - linked strip of quadrilaterals
+
+            GL_POLYGON - simple convex polygon
+
+15. glVertex{234}{sifd}{v}( … ) - specify a vertex in either 2, 3, or 4-D coordinates, using either 16 or 32 bit integers or floats or doubles, 
+      and either listing all coordinates or using an array parameter. 
+
+16. glEnd( void ) - end of a vertex list
+
+17. glFlush( ) - flush the graphics output buffer.
+
+18. EXIT_SUCCESS	successful execution of a program
 
 
 
