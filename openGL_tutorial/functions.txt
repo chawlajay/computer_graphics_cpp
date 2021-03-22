@@ -1,0 +1,12 @@
+1. glutInit(&argc,argv);
+-> glutInit is used to initialize the GLUT library.
+-> argc -	A pointer to the program's unmodified argc variable from main. Upon return, the value pointed to by argc will be updated, 
+	because glutInit extracts any command line options intended for the GLUT library.
+-> argv - 	The program's unmodified argv variable from main. Like argc, the data for argv will be updated because glutInit extracts 
+	any command line options understood by the GLUT library.
+-> glutInit will initialize the GLUT library and negotiate a session with the window system. During this process, glutInit may cause 
+	the termination of the GLUT program with an error message to the user if GLUT cannot be properly initialized. Examples 
+	of this situation include the failure to connect to the window system, the lack of window system support for OpenGL, and 
+	invalid command line options.
+
+2. 
